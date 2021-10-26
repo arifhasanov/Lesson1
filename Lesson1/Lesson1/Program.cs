@@ -9,7 +9,7 @@ namespace Lesson1
             Console.WriteLine("What is your name?");
             String name = Console.ReadLine();
             String today = DateTime.Today.ToShortDateString();
-            Console.WriteLine($"Hello {name}!, today is {today}");
+            Console.WriteLine($"Hello {name}!, today is {today}.");
             Console.Read();
         }
     }
